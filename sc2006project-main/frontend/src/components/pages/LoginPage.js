@@ -24,8 +24,7 @@ import { useUser } from '../../contexts/UserContext';
       console.log(login)
 
       try {
-      const response = await fetch('/api/authentication/login');
-', {
+       const response = await fetch('/api/authentication/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
