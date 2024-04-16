@@ -14,7 +14,7 @@ const favouriteRoutes = require('./routes/favourites')
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://sc2006projectwebsitedeployfrontend.onrender.com'
     credentials: true // if you need to send cookies or authorization headers
   }));
 
