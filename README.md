@@ -1,1 +1,1 @@
-link: https://sc2006projectwebsitedeployfrontend.onrender.com/ (WIP still trying to figure out why backend not working feel free to do routing by adding /home or /profile to the back of the link e.g https://sc2006projectwebsitedeployfrontend.onrender.com/home)
+link: https://sc2006projectwebsitedeployfrontend.onrender.com/ (WIP still trying to figure out why backend not working feel free to do routing by eding the url by adding /home or /profile to the back of the link e.g https://sc2006projectwebsitedeployfrontend.onrender.com/home)
