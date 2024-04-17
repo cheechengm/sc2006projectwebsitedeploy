@@ -135,7 +135,7 @@ function HomePage() {
 
     try {
       const response = await fetch(
-        `http://localhost:4000/api/search/restaurants`,
+        `https://sc2006projectwebsitedeployfrontend.onrender.com/api/search/restaurants`,
         {
           method: "POST",
           headers: {
