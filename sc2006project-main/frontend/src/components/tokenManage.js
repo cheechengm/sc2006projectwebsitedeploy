@@ -22,7 +22,7 @@ const useTokenVerification = () => {
                 //console.log(token)
 
 
-                const response = await fetch('http://localhost:4000/api/authentication/verifyToken', {
+                const response = await fetch('http://https://sc2006projectwebsitedeploy.onrender.com/api/api/authentication/verifyToken', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

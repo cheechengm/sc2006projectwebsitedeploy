@@ -14,7 +14,7 @@ function ActiveBookingsPage() {
     const fetchReservationData = async () => {
       try {
         const response = await fetch(
-          `http://localhost:4000/api/reservation/myReservations/${user}`,
+          `http://https://sc2006projectwebsitedeploy.onrender.com/api/api/reservation/myReservations/${user}`,
           {
             method: "GET",
             headers: {
@@ -51,7 +51,7 @@ function ActiveBookingsPage() {
     if (isConfirmed) {
       try {
         const response = await fetch(
-          `http://localhost:4000/api/reservation/${reservation_id}`,
+          `http://https://sc2006projectwebsitedeploy.onrender.com/api/api/reservation/${reservation_id}`,
           {
             method: "DELETE",
             headers: {

@@ -292,7 +292,7 @@ function HomePage() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://localhost:4000/api/profile/${user}`,
+          `http://https://sc2006projectwebsitedeploy.onrender.com/api/api/profile/${user}`,
           {
             method: "GET",
             headers: {

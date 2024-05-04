@@ -31,7 +31,7 @@ function EditReservationPage() {
     e.preventDefault();
     const { date_reservation, pax_size, time_reservation } = formFields;
     try {
-      const response = await fetch(`http://localhost:4000/api/reservation/${reservation_id}`, {
+      const response = await fetch(`http://https://sc2006projectwebsitedeploy.onrender.com/api/api/reservation/${reservation_id}`, {
           method: 'PATCH',
           headers: {
               'Content-Type': 'application/json',
@@ -60,7 +60,7 @@ function EditReservationPage() {
   useEffect(() => {
     const fetchReservationData = async () => {
       try {
-        const response = await fetch(`http://localhost:4000/api/reservation/${reservation_id}`, {
+        const response = await fetch(`http://https://sc2006projectwebsitedeploy.onrender.com/api/api/reservation/${reservation_id}`, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',

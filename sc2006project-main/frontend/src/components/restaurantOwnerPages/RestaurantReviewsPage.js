@@ -18,7 +18,7 @@ const RestaurantReviewsPage = () => {
   useEffect(() => {
     const fetchReviewData = async () => {
       try {
-        const response = await fetch(`http://localhost:4000/api/review/allReviews/${user}`, {
+        const response = await fetch(`http://https://sc2006projectwebsitedeploy.onrender.com/api/api/review/allReviews/${user}`, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',

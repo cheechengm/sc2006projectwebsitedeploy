@@ -14,7 +14,7 @@ function CompletedBookingsPage() {
   useEffect(() => {
     const fetchReservationData = async () => {
       try {
-        const response = await fetch(`http://localhost:4000/api/reservation/myReservations/${user}`, {
+        const response = await fetch(`http://https://sc2006projectwebsitedeploy.onrender.com/api/api/reservation/myReservations/${user}`, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
@@ -32,7 +32,7 @@ function CompletedBookingsPage() {
           json.past_reservations.forEach(async (reservation) => {
             if (reservation.feedback_status === 'given') {
               try {
-                const reviewResponse = await fetch(`http://localhost:4000/api/review/${reservation.reservation_id}_rvW`, {
+                const reviewResponse = await fetch(`http://https://sc2006projectwebsitedeploy.onrender.com/api/api/review/${reservation.reservation_id}_rvW`, {
                   method: "GET",
                   headers: {
                     'Content-Type': 'application/json',
