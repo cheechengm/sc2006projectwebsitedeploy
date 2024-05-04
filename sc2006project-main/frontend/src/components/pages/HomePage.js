@@ -135,7 +135,7 @@ function HomePage() {
 
     try {
       const response = await fetch(
-        `https://sc2006projectwebsitedeploy.onrender.com//apiapi/search/restaurants`,
+        `https://sc2006projectwebsitedeploy.onrender.com/apiapi/search/restaurants`,
         {
           method: "POST",
           headers: {
@@ -292,7 +292,7 @@ function HomePage() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://https://sc2006projectwebsitedeploy.onrender.com/api/api/profile/${user}`,
+          `https://sc2006projectwebsitedeploy.onrender.com/api/profile/${user}`,
           {
             method: "GET",
             headers: {

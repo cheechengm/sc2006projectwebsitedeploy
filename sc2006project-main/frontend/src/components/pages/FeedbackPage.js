@@ -28,7 +28,7 @@ const FeedbackPage = () => {
     console.log({ rating, priceRange, feedback });
     // API CALL
     try {
-      const response = await fetch(`http://https://sc2006projectwebsitedeploy.onrender.com/api/api/review/${reservation_id}`, {
+      const response = await fetch(`https://sc2006projectwebsitedeploy.onrender.com/api/review/${reservation_id}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

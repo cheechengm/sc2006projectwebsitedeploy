@@ -1,4 +1,4 @@
-POST http://https://sc2006projectwebsitedeploy.onrender.com/api/api/search
+POST https://sc2006projectwebsitedeploy.onrender.com/api/search
 Content-Type: application/json
 
 {

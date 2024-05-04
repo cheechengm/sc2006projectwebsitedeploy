@@ -52,7 +52,7 @@ useEffect(() => {
     };
 
     try {
-      const response = await fetch("http://https://sc2006projectwebsitedeploy.onrender.com/api/api/search/restaurants", {
+      const response = await fetch("https://sc2006projectwebsitedeploy.onrender.com/api/search/restaurants", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

@@ -51,7 +51,7 @@ function SignupPage() {
         confirmPassword : formData.confirmPassword //DO NOT DO THIS IN THE FUTURE
       }
     try{
-      const response = await fetch('http://https://sc2006projectwebsitedeploy.onrender.com/api/api/authentication/registerUser', {
+      const response = await fetch('https://sc2006projectwebsitedeploy.onrender.com/api/authentication/registerUser', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

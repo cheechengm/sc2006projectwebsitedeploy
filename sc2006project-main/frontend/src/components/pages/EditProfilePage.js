@@ -86,7 +86,7 @@ function EditProfilePage() {
   const saveProfile = async () => {
     try {
       const response = await fetch(
-        `http://https://sc2006projectwebsitedeploy.onrender.com/api/api/profile/${user}`,
+        `https://sc2006projectwebsitedeploy.onrender.com/api/profile/${user}`,
         {
           method: "PATCH",
           headers: {
@@ -118,7 +118,7 @@ function EditProfilePage() {
     const fetchProfileData = async () => {
       try {
         const response = await fetch(
-          `http://https://sc2006projectwebsitedeploy.onrender.com/api/api/profile/${user}`
+          `https://sc2006projectwebsitedeploy.onrender.com/api/profile/${user}`
         );
         if (response.ok) {
           const profileData = await response.json();

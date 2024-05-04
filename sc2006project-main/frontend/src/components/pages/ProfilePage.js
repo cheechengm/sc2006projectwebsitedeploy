@@ -18,7 +18,7 @@ function ProfilePage() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://https://sc2006projectwebsitedeploy.onrender.com/api/api/profile/${user}`,
+          `https://sc2006projectwebsitedeploy.onrender.com/api/profile/${user}`,
           {
             method: "GET",
             headers: {

@@ -13,7 +13,7 @@ function ReservationModal({ restaurant, onClose, onSubmit }) {
         e.preventDefault();
 
         try {
-            const response = await fetch(`http://https://sc2006projectwebsitedeploy.onrender.com/api/api/reservation`, {
+            const response = await fetch(`https://sc2006projectwebsitedeploy.onrender.com/api/reservation`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

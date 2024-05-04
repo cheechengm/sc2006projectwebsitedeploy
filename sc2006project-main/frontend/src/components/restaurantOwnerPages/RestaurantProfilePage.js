@@ -20,7 +20,7 @@ function RestaurantProfilePage() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://https://sc2006projectwebsitedeploy.onrender.com/api/api/profile/restaurantProfile/${user}`,
+          `https://sc2006projectwebsitedeploy.onrender.com/api/profile/restaurantProfile/${user}`,
           {
             method: "GET",
             headers: {

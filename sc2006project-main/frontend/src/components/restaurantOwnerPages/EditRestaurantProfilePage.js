@@ -42,7 +42,7 @@ function EditRestaurantProfilePage() {
       };
 
       const response = await fetch(
-        `http://https://sc2006projectwebsitedeploy.onrender.com/api/api/profile/restaurantProfile/${user}`,
+        `https://sc2006projectwebsitedeploy.onrender.com/api/profile/restaurantProfile/${user}`,
         {
           method: "PATCH",
           headers: {
@@ -70,7 +70,7 @@ function EditRestaurantProfilePage() {
     const fetchRestaurantProfile = async () => {
       try {
         const response = await fetch(
-          `http://https://sc2006projectwebsitedeploy.onrender.com/api/api/profile/restaurantProfile/${user}`
+          `https://sc2006projectwebsitedeploy.onrender.com/api/profile/restaurantProfile/${user}`
         );
         if (response.ok) {
           const profileData = await response.json();

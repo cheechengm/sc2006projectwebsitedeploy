@@ -13,7 +13,7 @@ import { useUser } from '../../contexts/UserContext';
     useEffect(() => {
       const fetchReservationData = async () => {
         try {
-          const response = await fetch(`http://https://sc2006projectwebsitedeploy.onrender.com/api/api/reservation/allReservations/${user}`, {
+          const response = await fetch(`https://sc2006projectwebsitedeploy.onrender.com/api/reservation/allReservations/${user}`, {
             method: 'GET',
             headers: {
               'Content-Type': 'application/json',
@@ -49,7 +49,7 @@ import { useUser } from '../../contexts/UserContext';
 
     const updateAvailability = async (newAvailability) => {
       try {
-        const response = await fetch(`http://https://sc2006projectwebsitedeploy.onrender.com/api/api/profile/availability/${user}`, {
+        const response = await fetch(`https://sc2006projectwebsitedeploy.onrender.com/api/profile/availability/${user}`, {
           method: 'PATCH',
           headers: {
             'Content-Type': 'application/json',
@@ -73,7 +73,7 @@ import { useUser } from '../../contexts/UserContext';
     useEffect(() => {
       const fetchAvailability = async () => {
         try {
-          const response = await fetch(`http://https://sc2006projectwebsitedeploy.onrender.com/api/api/profile/availability/${user}`, {
+          const response = await fetch(`https://sc2006projectwebsitedeploy.onrender.com/api/profile/availability/${user}`, {
             method: 'GET',
             headers: {
               'Content-Type': 'application/json',
@@ -96,7 +96,7 @@ import { useUser } from '../../contexts/UserContext';
 
     const updateWaitingTime = async (newTime) => {
       try {
-        const response = await fetch(`http://https://sc2006projectwebsitedeploy.onrender.com/api/api/profile/waitingTime/${user}`, {
+        const response = await fetch(`https://sc2006projectwebsitedeploy.onrender.com/api/profile/waitingTime/${user}`, {
           method: 'PATCH',
           headers: {
             'Content-Type': 'application/json',
@@ -132,7 +132,7 @@ import { useUser } from '../../contexts/UserContext';
     useEffect(() => {
       const fetchWaitingTime = async () => {
         try {
-          const response = await fetch(`http://https://sc2006projectwebsitedeploy.onrender.com/api/api/profile/waitingTime/${user}`, {
+          const response = await fetch(`https://sc2006projectwebsitedeploy.onrender.com/api/profile/waitingTime/${user}`, {
             method: 'GET',
             headers: {
               'Content-Type': 'application/json',

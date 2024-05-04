@@ -1,6 +1,6 @@
 ### POST FRIEND TEST
 
-POST http://https://sc2006projectwebsitedeploy.onrender.com/api/api/login
+POST https://sc2006projectwebsitedeploy.onrender.com/api/login
 Content-Type: application/json
 
 {
@@ -11,7 +11,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://https://sc2006projectwebsitedeploy.onrender.com/api/api/authentication/authenUser
+POST https://sc2006projectwebsitedeploy.onrender.com/api/authentication/authenUser
 Content-Type: application/json
 
 {
@@ -21,7 +21,7 @@ Content-Type: application/json
 
 
 ###
-POST http://https://sc2006projectwebsitedeploy.onrender.com/api/api/authentication/verifyToken
+POST https://sc2006projectwebsitedeploy.onrender.com/api/authentication/verifyToken
 Content-Type: application/json
 
 {
