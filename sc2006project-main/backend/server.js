@@ -43,5 +43,5 @@ app.use('/api/favourites', favouriteRoutes)
 
 // listen for requests
 app.listen(process.env.PORT, () => {
-    console.log('listening on port 4000!')
+    console.log('listening on port' +PORT)
 })
