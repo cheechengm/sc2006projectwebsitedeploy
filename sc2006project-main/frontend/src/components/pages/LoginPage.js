@@ -32,7 +32,9 @@ import { useUser } from '../../contexts/UserContext';
         body: JSON.stringify(login)
       })
 
-      const json = await response.json()
+      console.log('Response:', response); // Log the response object
+      const json = await response.json();
+      console.log('JSON:', json); // Log the parsed JSON
 
       if(!response.ok) {
         setError(json.error)
