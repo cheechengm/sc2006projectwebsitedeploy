@@ -1,4 +1,4 @@
-Hi welcome to Fiver's Makan Repository! This is our project for sc2006 software engineering module. We completed this within 3 months! Our intial goal is to make a webapp that makes it easy for people with dietary restriction to find restaurants to eat in a certain area. Subsequently we added several other features such as reservations and leaving review. See below for more details..
+Hi welcome to Fiver's Makan Repository! This is our project for sc2006 software engineering module. We completed this within 3 months! Our intial goal is to make a webapp that makes it easy for people with dietary restriction to find restaurants to eat in a certain area. Subsequently we added several other features such as reservations and leaving review. See below for more details.
 
 Our website is functional! See link to webapp: https://sc2006projectwebsitedeployfrontend.onrender.com/   
 
