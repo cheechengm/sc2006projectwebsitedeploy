@@ -1,7 +1,8 @@
 link to webapp: https://sc2006projectwebsitedeployfrontend.onrender.com/ 
 
 ## Features: 
-Summary of patrons features: Patrons can search for restaurants in a location with filters such as dietary filter, make reservations, edit reservations, give feedback.
+Summary of patrons features: Patrons can search for restaurants in a location with filters such as dietary filter, make reservations, edit reservations, give feedback.  
+
 Summary of restaurant owner features: Restaurant owner can view reservatoins, toggle availability for booking, set estimated waiting time, view reviews and reply to reviews.
 
 
