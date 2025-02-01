@@ -1,12 +1,12 @@
 link to webapp: https://sc2006projectwebsitedeployfrontend.onrender.com/ 
 
 Features: 
-Patrons
-Patrons can search for restaurants in a certain location with option of applying filters such as dietary restrictions and distance
+Summary of features: Patrons can search for restaurants in a location with filters such as dietary filter, make reservations, edit reservations, give feedback.
+
+Patrons can search for restaurants in a certain location with option of applying filters such as dietary restrictions and distance. Patrons can view estimated waiting and make reservations for restaurants that are registered with Fiver's Makan
 ![usage ui](https://github.com/user-attachments/assets/9b498957-8047-4ec5-9c4c-7f812145efad)
 ![filters](https://github.com/user-attachments/assets/3f62b40e-f0e2-40d4-ac30-e11f07be65f3)
 
-Patrons can view estimated waiting and make reservations for restaurants that are registered with Fiver's Makan
 
 Patrons can view and edit their current reservations. 
 
