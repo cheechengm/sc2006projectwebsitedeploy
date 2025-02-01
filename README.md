@@ -1,6 +1,6 @@
 Hi welcome to Fiver's Makan Repository! Our intial goal is to make a webapp that makes it easy for people with dietary restriction to find restaurants to eat in a certain area. Subsequently we added several other features such as reservations and leaving review. See below for more details.
 
-Our website is functional! see link to webapp: https://sc2006projectwebsitedeployfrontend.onrender.com/   
+Our website is functional! See link to webapp: https://sc2006projectwebsitedeployfrontend.onrender.com/   
 
 We have a short demo(5mins) to briefly cover our features: https://www.youtube.com/watch?v=hlEssgbhUlI
 
