@@ -28,7 +28,7 @@ This is how the feedback form looks like.
 ![feedback ui](https://github.com/user-attachments/assets/d9dfd1c8-5a20-4108-9930-63fa038d72ef)
 
 ## Restaurant demo:
-Restaurant owners can view reservatoins, toggle availability for booking, set estimated waiting time
+Restaurant owners can view current reservations, toggle availability for booking, set estimated waiting time
 ![restaurant ui](https://github.com/user-attachments/assets/428a79ae-b7fa-4a45-a0ac-148984504f09)
 
 Restaurant owner can view reviews and reply to reviews
