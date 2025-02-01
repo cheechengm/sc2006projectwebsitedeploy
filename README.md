@@ -4,6 +4,8 @@ Our website is functional! See link to webapp: https://sc2006projectwebsitedeplo
 
 We have a short demo(5mins) to briefly cover our features: https://www.youtube.com/watch?v=hlEssgbhUlI
 
+Frontend: React, Backend: Express, Database: Firebase
+
 ## Features: 
 Summary of **patrons** features: Patrons can search for restaurants in a location with filters such as dietary filter, make reservations, edit reservations, give feedback.  
 
