@@ -1,11 +1,15 @@
-link to webapp: https://sc2006projectwebsitedeployfrontend.onrender.com/   
+Hi welcome to Fiver's Makan Repository! Our intial goal is to make a webapp that makes it easy for people with dietary restriction to find restaurants to eat in a certain area. Subsequently we added several other features such as reservations and leaving review. See below for more details.
 
-link to short demo(5mins): https://www.youtube.com/watch?v=hlEssgbhUlI
+Our website is functional! see link to webapp: https://sc2006projectwebsitedeployfrontend.onrender.com/   
+
+We have a short demo(5mins) to briefly cover our features: https://www.youtube.com/watch?v=hlEssgbhUlI
 
 ## Features: 
 Summary of **patrons** features: Patrons can search for restaurants in a location with filters such as dietary filter, make reservations, edit reservations, give feedback.  
 
 Summary of **restaurant owner** features: Restaurant owner can register with Fivers, view reservatoins, toggle availability for booking, set estimated waiting time, view reviews and reply to reviews.
+
+
 
 
 ## Patrons demo:
